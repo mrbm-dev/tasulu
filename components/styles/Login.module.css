@@ -1,0 +1,97 @@
+@import "../../assets/antd-custom.css";
+.main {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.taskulu_logo {
+  margin: 15px;
+}
+.selection_right {
+  width: 50%;
+  height: auto;
+  display: flex;
+}
+
+.selection_left {
+  background-color: #249bd6;
+  width: 50%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url("/images/splash.png"),
+    linear-gradient(to bottom left, #49c3c9, #249bd6 50%, #0c5b9c);
+  background-size: 200vh auto;
+  background-position: 0 100%, 100% 0;
+}
+.text {
+  margin: 40px auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.text :global(.ant-typography) {
+  color: #fff;
+}
+
+.main_center {
+  width: 345px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.main_center label {
+  margin-top: 24px;
+  margin-left: 80px;
+}
+.main_center a {
+  font-weight: bold;
+}
+.main_center h3 {
+  align-self: flex-start;
+  justify-self: start;
+}
+.login_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+}
+.btn {
+  display: flex;
+  gap: 10px;
+  align-self: end;
+  margin-top: 35px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 25px;
+}
+.footer span:hover {
+  color: #2196f3;
+  cursor: pointer;
+}
+.card_google:hover {
+  box-shadow: 2px 4px 6px 2px rgba(21, 203, 212, 0.3);
+}
+.card_github {
+  background-color: #444;
+}
+.card_github:hover {
+  background-color: #000;
+}
+.card_github span {
+  color: #fff;
+}
+
+.card_item {
+  margin: 50px 0 50px 0;
+}
+.ant-alert-warning {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* antd custom */

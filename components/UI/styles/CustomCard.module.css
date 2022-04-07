@@ -1,0 +1,19 @@
+.card {
+  width: 310px;
+  height: 46px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 20px;
+  margin-top: 22px;
+  cursor: pointer;
+}
+.card svg{
+  font-size: 30px;
+}
+.card span {
+  font-size: 16px;
+  font-weight: bold;
+}
